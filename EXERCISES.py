@@ -5,6 +5,8 @@ for i in range(1, 11):
   nn = i * number
   print(number, "x", i, "=", nn)
 
+# || ========================================================================== || #
+
 # Exercise 2: Sum of Even Numbers (1 to N)
 number = int(input("Enter a number: "))
 
@@ -12,13 +14,15 @@ for i in range(1, number):
   nn = i * number
   print(number, "x", i, "=", nn)
 
+# || ========================================================================== || #
+
 # Exercise 3: Star Pattern Pyramid
 rows = int(input("Enter number of rows: "))
 
 for i in range(1, rows):
   print("*" * i)
 
-
+# || ========================================================================== || #
 
 # Exercise 4: Number Guessing Game
 import random
@@ -37,8 +41,9 @@ while input_from_user != number_to_guess:
     else:
         print('Correct!')
 
-# Exercise 5: Running Total Calculator
+# || ========================================================================== || #
 
+# Exercise 5: Running Total Calculator
 total = 0
 num = 1
 
@@ -49,8 +54,9 @@ while num != 0:
 
 print("Your total is:", total)
 
-# Exercise 6: Login Attempt Limiter
+# || ========================================================================== || #
 
+# Exercise 6: Login Attempt Limiter
 password = 'PotatoPcPotatoProgrammer'
 user_attempts = 0
 
