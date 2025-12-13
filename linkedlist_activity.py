@@ -29,15 +29,12 @@ class CreateLinkedList:
         CurrentNode = self.Head
         PreviousNode = None
 
-        # if list is empty
         if CurrentNode == None: return
 
-        # Head node is key
         if CurrentNode.data == key:
             self.Head = CurrentNode.next_linked_node
             return
         
-        # Node is not the head
         while CurrentNode != None:
 
             if CurrentNode.data == key:
